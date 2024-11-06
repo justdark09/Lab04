@@ -71,6 +71,8 @@ class Canvas extends JPanel
         //right side
         for (int y1 = 0, x2 = 1600; y1 < 900; y1 += 15, x2 -= 15)
         {
+            //x1 is 1599 because if it were 1600, there would be a small gap in
+            //the top right of the "bottom" section of the lines
             g.drawLine(1599, y1, x2, 900);
         }
 
@@ -83,7 +85,7 @@ class Canvas extends JPanel
         //right side
         for (int y1 = 900, x2 = 1600; y1 > 0; y1 -= 15, x2 -= 15)
         {
-            g.drawLine(1600,y1,x2,0);
+            g.drawLine(1599,y1,x2,0);
         }
     }
 }
