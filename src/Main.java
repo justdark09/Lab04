@@ -6,7 +6,7 @@ import javax.swing.JPanel;
 
 /*
         Lab04 - Line Art
-        first update after cloning from vcs??
+        first update after cloning from vcs?? --IT WORKS!!
         Your goal is to generate a picture ONLY using straight lines. We will learn that we can still
         draw curves with straight lines. See the example below labeled 'Loop Paint example'.
  */
